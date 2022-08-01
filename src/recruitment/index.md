@@ -13,7 +13,7 @@ eleventyNavigation:
     <p>
 </div>
 
-<div class="min-h-screen container flex flex-col md:flex-row gap-12 px-6 py-8 mx-auto font-serif font-light animate__animated animate__faster animate__fadeInUp">
+<div class="container flex flex-col md:flex-row gap-12 px-6 py-8 mx-auto font-serif font-light animate__animated animate__faster animate__fadeInUp">
   <div class="md:basis-1/3 lg:basis-1/3">
     <h1 class="font-mono font-semibold text-2xl text-white uppercase mb-4">Classes prios</h1>
     <p class="mt-4 font-light text-slate-200 text-lg rounded-xl">

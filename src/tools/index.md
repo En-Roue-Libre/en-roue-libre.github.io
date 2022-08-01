@@ -6,8 +6,8 @@ eleventyNavigation:
   order: 4
 ---
 
-<div class="container flex flex-col gap-12 px-6 py-8 mx-auto font-serif font-light animate__animated animate__faster animate__fadeInUp">
-  <div>
+<div class="container flex flex-col gap-12 px-6 py-8 mx-auto font-serif font-light">
+  <div class="animate__animated animate__faster animate__fadeInUp">
     <h1 class="font-mono font-semibold text-2xl text-white uppercase mb-4">Notre addon</h1>
     <p class="mt-4 font-light text-slate-200 text-lg rounded-xl">
       <a href="https://www.curseforge.com/wow/addons/raiduku/" target="_blank" class="font-normal underline text-red-600">Raiduku</a> est un addon minimaliste pour aider les raid leads à gérer les loots dans Burning Crusade Classic :
@@ -23,7 +23,7 @@ eleventyNavigation:
       </ul>
     </p>
   </div>
-  <div>
+  <div class="animate__animated animate__faster animate__fadeInUp">
     <h1 class="font-mono font-semibold text-2xl text-white uppercase mb-4">Addons favoris</h1>
     <p class="mt-4 font-light text-slate-200 text-lg rounded-xl">
       <ul class="list-inside list-disc">

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        {% set style %}
+        {% include "assets/css/style.css" %}
+        {% endset %}
+        {% set fonts %}
+        {% include "assets/css/fonts.css" %}
+        {% endset %}
+        <style>
+            {{style | cssmin | safe}}
+        </style>
+        <style>
+            {{fonts | cssmin | safe}}
+        </style>
+
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
+
+        <script src="https://afarkas.github.io/lazysizes/lazysizes.min.js" defer></script>
+
+        <title>{{ title }}</title>
+    </head>
+    <body class="font-sans antialiased text-slate-200 bg-gradient-to-r from-slate-900 via-slate-800/95 to-slate-900">
+        {% include "partials/header.njk" %}
+        <main class="max-w-6xl mx-auto py-8">
+            {{ content | safe }}
+        </main>
+        {% include "partials/footer.njk" %}
+    </body>
+</html>

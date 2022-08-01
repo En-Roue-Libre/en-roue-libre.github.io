@@ -1,0 +1,25 @@
+{%- for extension in progress -%}
+    <div class="hidden text-sky-500 text-lime-500"></div>
+    <div class="p-4 mt-4 animate__animated animate__faster animate__fadeInUp">
+        <div class="grid grid-cols-12">
+            <div class="col-start-4 col-end-12">
+                <h1 class="{{ extension.colorClass }} text-4xl text-center font-bold mb-6">{{ extension.name }}</h1>
+            </div>
+        </div>
+        <div class="container">
+            <div class="flex flex-col md:grid grid-cols-12 text-gray-50">
+                {%- for phase in extension.phases -%}
+                    {%- if phase.done -%}
+                        {% include "partials/progress/done.njk" %}
+                    {%- else -%}
+                        {%- if extension.done -%}
+                            {% include "partials/progress/aborted.njk" %}
+                        {%- else -%}
+                            {% include "partials/progress/doing.njk" %}
+                        {%- endif -%}
+                    {%- endif -%}
+                {%- endfor -%}
+            </div>
+        </div>
+    </div>
+{%- endfor -%}

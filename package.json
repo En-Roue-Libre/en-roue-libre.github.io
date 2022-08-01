@@ -1,0 +1,28 @@
+{
+  "name": "en-roue-libre.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"$npm_execpath run tw\" \"$npm_execpath run serve\"",
+    "build": "env NODE_ENV=production npx eleventy",
+    "serve": "npx eleventy --serve",
+    "tw": "npx postcss src/scss/style.css --o src/_includes/assets/css/style.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.1",
+    "@11ty/eleventy-navigation": "^0.3.3",
+    "autoprefixer": "^10.4.7",
+    "clean-css": "^5.3.1",
+    "concurrently": "^7.2.2",
+    "html-minifier": "^4.0.0",
+    "postcss-cli": "^10.0.0",
+    "tailwindcss": "^3.1.6"
+  },
+  "dependencies": {}
+}

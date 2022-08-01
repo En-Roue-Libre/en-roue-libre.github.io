@@ -59,7 +59,7 @@ eleventyNavigation:
                   Avec la sortie de <i>Wrath of the Lich King Classic</i>, <span class="font-medium">les ambitions de la guilde s'adaptent</span> au contenu PvE riche que propose l'extension.
                 </p>
                 <p class="mt-2 font-light text-slate-200 text-lg">
-                   Par conséquent, l'objectif est de parcourir les <span class="font-medium">raids jusqu'au mode 25 HM</span>, en faisant au passage le plus de haut faits possible au rythme.
+                   Par conséquent, l'objectif est de parcourir les <span class="font-medium">raids jusqu'au mode 25 HM</span>, en faisant au passage le plus de haut faits possible.
                 </p>
             </div>
         </div>

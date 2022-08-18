@@ -29,10 +29,6 @@ eleventyNavigation:
       Prêtre sacré
     </p>
     <p class="mt-4 font-light text-slate-200 text-lg">
-      <img class="h-8 w-8 float-left mr-4 border border-slate-600 rounded drop-shadow-lg lazyload" data-src="https://wow.zamimg.com/images/wow/icons/medium/spell_nature_lightning.jpg">
-      Chaman élementaire
-    </p>
-    <p class="mt-4 font-light text-slate-200 text-lg">
       <img class="h-8 w-8 float-left mr-4 border border-slate-600 rounded drop-shadow-lg lazyload" data-src="https://wow.zamimg.com/images/wow/icons/medium/spell_nature_lightningshield.jpg">
       Chaman amélioration
     </p>

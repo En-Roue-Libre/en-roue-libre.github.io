@@ -6,9 +6,9 @@
         "phases": [
             {
                 "name": "Phase 5",
-                "done": false,
+                "done": true,
                 "raids": [
-                    "Sunwell Plateau (4/6)"
+                    "Sunwell Plateau (6/6)"
                 ]
             },
             {

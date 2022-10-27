@@ -54,7 +54,7 @@ eleventyNavigation:
     <div class="items-center lg:flex">
         <div class="w-full lg:w-1/2">
             <div class="lg:max-w-lg animate__animated animate__fast animate__bounceInLeft">
-                <h1 class="font-mono font-semibold text-2xl text-white uppercase">Futur</h1>
+                <h1 class="font-mono font-semibold text-2xl text-white uppercase">Ambition</h1>
                 <p class="mt-2 font-light text-slate-200 text-lg">
                   Avec la sortie de <i>Wrath of the Lich King Classic</i>, <span class="font-medium">les ambitions de la guilde s'adaptent</span> au contenu PvE riche que propose l'extension.
                 </p>

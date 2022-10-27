@@ -1,5 +1,21 @@
 [
     {
+        "name": "Wrath of the Lich King Classic",
+        "colorClass": "text-sky-500",
+        "done": false,
+        "phases": [
+            {
+                "name": "Phase 1",
+                "done": true,
+                "raids": [
+                    "Sartharion 10/25 (2D)",
+                    "Malygos 10/25 (1/1)",
+                    "Naxxramas 10/25 (15/15)"
+                ]
+            }
+        ]
+    },
+    {
         "name": "Burning Crusade Classic",
         "colorClass": "text-lime-500",
         "done": false,

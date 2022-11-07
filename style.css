@@ -846,6 +846,10 @@ video {
   font-size: 2.25rem;
   line-height: 2.5rem;
 }
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
 .font-semibold {
   font-weight: 600;
 }
@@ -1118,7 +1122,17 @@ video {
     flex-basis: 33.333333%;
   }
 
+  .lg\:basis-1\/2 {
+    flex-basis: 50%;
+  }
+
   .lg\:border-b-2 {
     border-bottom-width: 2px;
+  }
+}
+@media (min-width: 1280px) {
+
+  .xl\:basis-1\/2 {
+    flex-basis: 50%;
   }
 }

@@ -8,9 +8,19 @@
                 "name": "Phase 1",
                 "done": true,
                 "raids": [
-                    "Sartharion 10/25 (2D)",
+                    "Sartharion 10/25 (1/1)",
                     "Malygos 10/25 (1/1)",
                     "Naxxramas 10/25 (15/15)"
+                ],
+                "achievements": [
+                    {
+                        "name": "Increvables (10)",
+                        "link": "https://www.wowhead.com/wotlk/fr/achievement=2187/increvables"
+                    },
+                    {
+                        "name": "Duo crépusculaire (10/25)",
+                        "link": "https://www.wowhead.com/wotlk/fr/achievement=2053/duo-cr%C3%A9pusculaire-25-joueurs"
+                    }
                 ]
             }
         ]
@@ -31,7 +41,13 @@
                 "name": "Phase 4",
                 "done": true,
                 "raids": [
-                    "Zul'Aman (6/6, Timed)"
+                    "Zul'Aman (6/6)"
+                ],
+                "achievements": [
+                    {
+                        "name": "Ours de guerre amani",
+                        "link": "https://www.wowhead.com/wotlk/fr/achievement=430/ours-de-guerre-amani"
+                    }
                 ]
             },
             {
@@ -40,6 +56,12 @@
                 "raids": [
                     "Black Temple (8/8)",
                     "Mount Hyjal (5/5)"
+                ],
+                "achievements": [
+                    {
+                        "name": "Main d'A'dal",
+                        "link": "https://www.wowhead.com/wotlk/fr/achievement=431/main-dadal"
+                    }
                 ]
             },
             {
@@ -48,6 +70,12 @@
                 "raids": [
                     "TK (4/4)",
                     "SSC (6/6)"
+                ],
+                "achievements": [
+                    {
+                        "name": "Cendres d'Al'ar",
+                        "link": "https://www.wowhead.com/wotlk/fr/achievement=885/cendres-dalar"
+                    }
                 ]
             },
             {
@@ -57,6 +85,12 @@
                     "Karazhan (14/14)",
                     "Gruul (2/2)",
                     "Maghteridon (1/1)"
+                ],
+                "achievements": [
+                    {
+                        "name": "Champion des naaru",
+                        "link": "https://www.wowhead.com/wotlk/fr/achievement=432/champion-des-naaru"
+                    }
                 ]
             }
         ]

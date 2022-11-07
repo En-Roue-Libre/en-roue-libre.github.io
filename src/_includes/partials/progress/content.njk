@@ -1,4 +1,17 @@
 <h3 class="font-mono font-semibold text-2xl mb-4 text-gray-50">{{ phase.name }}</h3>
-{%- for raid in phase.raids -%}
-    <p class="font-mono leading-tight text-justify mt-1">{{ raid }}</p>
-{%- endfor -%}
+<div class="container flex flex-col md:flex-row gap-12 mx-auto">
+    <div class="md:basis-1/2 lg:basis-1/2">
+        {%- for raid in phase.raids -%}
+            <p class="font-mono leading-tight mt-1">{{ raid }}</p>
+        {%- endfor -%}
+    </div>
+    {%- if phase.achievements.length >0 -%}
+        <div class="md:basis-1/2 lg:flex-auto">
+            {%- for achievement in phase.achievements -%}
+                <p class="font-mono leading-tight mt-1">
+                    <a target="_blank" href="{{ achievement.link }}">{{ achievement.name }}</a>
+                </p>
+            {%- endfor -%}
+        </div>
+    {%- endif -%}
+</div>

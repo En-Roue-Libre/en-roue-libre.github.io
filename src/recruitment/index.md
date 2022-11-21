@@ -16,10 +16,6 @@ eleventyNavigation:
 <div class="container flex flex-col md:flex-row gap-12 px-6 py-8 mx-auto font-serif font-light animate__animated animate__faster animate__fadeInUp">
   <div class="md:basis-1/3 lg:basis-1/3">
     <h1 class="font-mono font-semibold text-2xl text-white uppercase mb-4">Classes prios</h1>
-    <p class="mt-4 font-light text-slate-200 text-lg rounded-xl">
-      <img class="h-8 w-8 float-left mr-4 border border-slate-600 rounded drop-shadow-lg lazyload" data-src="https://wow.zamimg.com/images/wow/icons/large/classicon_warlock.jpg">
-      Démoniste
-    </p>
     <p class="mt-4 font-light text-slate-200 text-lg">
       <img class="h-8 w-8 float-left mr-4 border border-slate-600 rounded drop-shadow-lg lazyload" data-src="https://wow.zamimg.com/images/wow/icons/large/classicon_hunter.jpg">
       Chasseur

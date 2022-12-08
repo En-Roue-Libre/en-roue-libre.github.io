@@ -14,12 +14,20 @@
                 ],
                 "achievements": [
                     {
+                        "name": "Immortel (25)",
+                        "link": "https://www.wowhead.com/wotlk/fr/achievement=2186/il-en-restera-plus-dun"
+                    },
+                    {
                         "name": "Increvables (10)",
                         "link": "https://www.wowhead.com/wotlk/fr/achievement=2187/increvables"
                     },
                     {
                         "name": "The Twilight Zone (25)",
                         "link": "https://www.wowhead.com/wotlk/fr/achievement=2054/les-chroniques-des-cr%C3%A9pusculaires-25-joueurs"
+                    },
+                    {
+                        "name": "Gloire à l'écumeur de raids (25)",
+                        "link": "https://www.wowhead.com/wotlk/fr/achievement=2138/gloire-%C3%A0-l%C3%A9cumeur-de-raids-25-joueurs"
                     }
                 ]
             }

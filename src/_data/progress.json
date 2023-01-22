@@ -5,6 +5,16 @@
         "done": false,
         "phases": [
             {
+                "name": "Phase 2",
+                "done": false,
+                "raids": [
+                    "Ulduar 25 (0/14)",
+                    "Ulduar 10 (8/14)"
+                ],
+                "achievements": [
+                ]
+            },
+            {
                 "name": "Phase 1",
                 "done": true,
                 "raids": [

@@ -64,7 +64,7 @@ eleventyNavigation:
             </div>
         </div>
         <div class="hidden md:flex items-center justify-center w-full mt-6 lg:mt-0 lg:w-1/2">
-            <img class="w-full h-full lg:max-w-2xl rounded-xl shadow-xl lazyload" data-src="https://wow.zamimg.com/uploads/guide/seo/6075.jpg?1525401856" alt="ICC">
+            <img class="w-full h-full lg:max-w-2xl rounded-xl shadow-xl lazyload" data-src="/img/erl-wotlk-p1.jpg" alt="La guilde avec ses montures de HF en P1 de WotLK">
         </div>
     </div>
 </div>

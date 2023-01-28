@@ -29,16 +29,12 @@ eleventyNavigation:
       Prêtre ombre
     </p>
     <p class="mt-4 font-light text-slate-200 text-lg">
-      <img class="h-8 w-8 float-left mr-4 border border-slate-600 rounded drop-shadow-lg lazyload" data-src="https://wow.zamimg.com/images/wow/icons/large/classicon_shaman.jpg">
-      Chaman (élémentaire)
-    </p>
-    <p class="mt-4 font-light text-slate-200 text-lg">
       <img class="h-8 w-8 float-left mr-4 border border-slate-600 rounded drop-shadow-lg lazyload" data-src="https://wow.zamimg.com/images/wow/icons/large/classicon_hunter.jpg">
       Chasseur
     </p>
     <p class="mt-4 font-light text-slate-200 text-lg">
-      <img class="h-8 w-8 float-left mr-4 border border-slate-600 rounded drop-shadow-lg lazyload" data-src="https://wow.zamimg.com/images/wow/icons/large/classicon_mage.jpg">
-      Mage
+      <img class="h-8 w-8 float-left mr-4 border border-slate-600 rounded drop-shadow-lg lazyload" data-src="https://wow.zamimg.com/images/wow/icons/large/classicon_shaman.jpg">
+      Chaman (élémentaire)
     </p>
   </div>
   <div class="md:basis-1/2 lg:flex-auto">

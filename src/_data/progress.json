@@ -9,9 +9,13 @@
                 "done": false,
                 "raids": [
                     "Ulduar 25 (13/14 NM) (0/9 HM)",
-                    "Ulduar 10 (13/14 MM) (3/9 HM)"
+                    "Ulduar 10 (14/14 MM) (7/9 HM)"
                 ],
                 "achievements": [
+                    {
+                        "name": "Mande-étoile",
+                        "link": "https://www.wowhead.com/fr/achievement=3036/on-nous-observe-10-joueurs"
+                    }
                 ]
             },
             {

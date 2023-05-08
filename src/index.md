@@ -59,12 +59,12 @@ eleventyNavigation:
                   Avec la sortie de <i>Wrath of the Lich King Classic</i>, <span class="font-medium">les ambitions de la guilde s'adaptent</span> au contenu PvE riche que propose l'extension.
                 </p>
                 <p class="mt-2 font-light text-slate-200 text-lg">
-                   Par conséquent, l'objectif est de parcourir les <span class="font-medium">raids jusqu'au mode 25 HM</span>, en faisant au passage le plus de haut faits possible.
+                   Par conséquent, l'objectif est de parcourir les <span class="font-medium">raids en mode HM</span>, en faisant un focus sur du <span class="font-medium">raid 10</span> et en réalisant au passage le plus de haut faits possible.
                 </p>
             </div>
         </div>
         <div class="hidden md:flex items-center justify-center w-full mt-6 lg:mt-0 lg:w-1/2">
-            <img class="w-full h-full lg:max-w-2xl rounded-xl shadow-xl lazyload" data-src="/img/erl-wotlk-p1.jpg" alt="La guilde avec ses montures de HF en P1 de WotLK">
+            <img class="w-full h-full lg:max-w-2xl rounded-xl shadow-xl lazyload" data-src="/img/erl-algalon-10.png" alt="La guilde suite au down d'Algalon">
         </div>
     </div>
 </div>

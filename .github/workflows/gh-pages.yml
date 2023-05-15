@@ -14,9 +14,11 @@ jobs:
         node-version: [18.x]
 
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout
+        uses: actions/checkout@v2
 
-      - uses: actions/setup-go@v4
+      - name: Get Raid Helper Events
+        uses: actions/setup-go@v4
         env:
           RH_SERVERID: ${{ secrets.RH_SERVERID }}
           RH_APIKEY: ${{ secrets.RH_APIKEY }}

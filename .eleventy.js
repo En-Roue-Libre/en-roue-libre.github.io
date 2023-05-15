@@ -21,6 +21,12 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addFilter("cssmin", function (code) {
         return new CleanCSS({}).minify(code).styles;
     });
+    eleventyConfig.addFilter("toLocaleDateString", function (timestamp) {
+        return new Date(timestamp * 1000).toLocaleDateString('fr-FR', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
+    });
+    eleventyConfig.addFilter("isPast", function (timestamp) {
+        return new Date(timestamp * 1000) < new Date();
+    });
 
     // Transforms
     eleventyConfig.addTransform("htmlmin", function (content) {

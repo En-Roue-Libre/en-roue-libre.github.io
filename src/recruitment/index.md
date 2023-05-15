@@ -3,7 +3,7 @@ layout: base
 title: ERL | Recrutement
 eleventyNavigation:
   key: Recrutement
-  order: 3
+  order: 4
 ---
 
 <div class="container flex flex-col  px-6 py-8 mx-auto font-serif font-light animate__animated animate__faster animate__fadeInUp">

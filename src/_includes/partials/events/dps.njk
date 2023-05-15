@@ -1,0 +1,11 @@
+<h3 class="text-xl font-sans text-lime-100 mb-2">DPS</h3>
+<div class="grid grid-rows-3 grid-flow-col">
+    {%- for dps in event.dps -%}
+        <div class="flex items-center space-x-4 mb-2">
+            <img class="w-6 h-6 rounded" src="{{ dps.iconUrl }}" alt="{{ dps.specName }}">
+            <div class="font-medium text-white">
+                <div class="capitalize text-{{ dps.classColor }}">{{ dps.name }}</div>
+            </div>
+        </div>
+    {%- endfor -%}
+</div>

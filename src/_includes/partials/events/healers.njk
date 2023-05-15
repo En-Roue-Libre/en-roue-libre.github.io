@@ -1,0 +1,11 @@
+<h3 class="text-xl font-sans text-lime-100 mb-2">Healers</h3>
+<div class="grid grid-rows-2 grid-flow-col">
+    {%- for healer in event.healers -%}
+        <div class="flex items-center space-x-4 mb-2">
+            <img class="w-6 h-6 rounded" src="{{ healer.iconUrl }}" alt="{{ healer.specName }}">
+            <div class="font-medium text-white">
+                <div class="capitalize text-{{ healer.classColor }}">{{ healer.name }}</div>
+            </div>
+        </div>
+    {%- endfor -%}
+</div>

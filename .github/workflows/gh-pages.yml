@@ -17,13 +17,15 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
-      - name: Get Raid Helper Events
+      - name: Setup Go
         uses: actions/setup-go@v4
         env:
           RH_SERVERID: ${{ secrets.RH_SERVERID }}
           RH_APIKEY: ${{ secrets.RH_APIKEY }}
         with:
-          go-version: '>=1.18.0'
+          go-version: ">=1.18.0"
+
+      - name: Get Raid Helper Events
         run: |
           go run scripts/main.go
 
@@ -35,7 +37,7 @@ jobs:
       - name: Install dependencies & build
         run: |
           npm install
-          npm run build          
+          npm run build
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3

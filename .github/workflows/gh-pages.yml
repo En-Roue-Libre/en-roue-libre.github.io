@@ -19,13 +19,13 @@ jobs:
 
       - name: Setup Go
         uses: actions/setup-go@v4
-        env:
-          RH_SERVERID: ${{ secrets.RH_SERVERID }}
-          RH_APIKEY: ${{ secrets.RH_APIKEY }}
         with:
           go-version: ">=1.18.0"
 
       - name: Get Raid Helper Events
+        env:
+          RH_SERVERID: ${{ secrets.RH_SERVERID }}
+          RH_APIKEY: ${{ secrets.RH_APIKEY }}
         run: |
           go run scripts/main.go
 

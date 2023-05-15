@@ -1,5 +1,5 @@
 <h3 class="text-xl font-sans text-lime-100 mb-2">Healers</h3>
-<div class="grid grid-rows-2 grid-flow-col">
+<div class="grid md:grid-rows-3 md:grid-flow-col md:gap-x-12">
     {%- for healer in event.healers -%}
         <div class="flex items-center space-x-4 mb-2">
             <img class="w-6 h-6 rounded" src="{{ healer.iconUrl }}" alt="{{ healer.specName }}">

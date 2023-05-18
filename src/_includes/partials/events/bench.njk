@@ -1,0 +1,11 @@
+<h3 class="text-xl font-sans text-lime-100 mt-4 mb-2">Bench ({{ event.bench.length }})</h3>
+<div class="grid md:grid-rows-2 md:grid-flow-col gap-x-4">
+    {%- for bench in event.bench -%}
+        <div class="flex items-center space-x-4 mb-2">
+            <img class="w-6 h-6 rounded" src="{{ bench.iconUrl }}" alt="{{ bench.specName }}">
+            <div class="font-medium text-white">
+                <div class="capitalize text-{{ bench.classColor }}">{{ bench.name }}</div>
+            </div>
+        </div>
+    {%- endfor -%}
+</div>

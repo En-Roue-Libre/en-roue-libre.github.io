@@ -21,6 +21,7 @@ func main() {
 		event.Tanks = []SignUp{}
 		event.DPS = []SignUp{}
 		event.Healers = []SignUp{}
+		event.Bench = []SignUp{}
 
 		for _, signUp := range event.Details.SignUps {
 
@@ -30,6 +31,10 @@ func main() {
 
 			if signUp.ClassName == "Late" {
 				lateAmount++
+			}
+
+			if signUp.ClassName == "Bench" {
+				event.Bench = append(event.Bench, signUp)
 			}
 
 			if signUp.ClassName != "Tentative" && signUp.ClassName != "Absence" && signUp.ClassName != "Bench" {
@@ -156,6 +161,7 @@ type Event struct {
 	Tanks         []SignUp     `json:"tanks"`
 	Healers       []SignUp     `json:"healers"`
 	DPS           []SignUp     `json:"dps"`
+	Bench         []SignUp     `json:"bench"`
 	CompoURL      string       `json:"compoUrl"`
 	Details       EventDetails `json:"details"`
 	SignUpsAmount int          `json:"signUpsAmount"`

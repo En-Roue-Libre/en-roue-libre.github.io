@@ -12,6 +12,7 @@ func main() {
 	events := GetEvents()
 
 	for i, event := range events.PostedEvents {
+		lateAmount := 0
 		var compURLBuilder, specParamsBuilder, nameParamsBuilder strings.Builder
 		compURLBuilder.WriteString("https://wowtbc.gg/wotlk/raid-comp/?c=")
 
@@ -27,6 +28,10 @@ func main() {
 			signUp.ClassColor = specColorMap[signUp.SpecName]
 			signUp.SpecID = specIDMap[signUp.SpecName]
 
+			if signUp.ClassName == "Late" {
+				lateAmount++
+			}
+
 			if signUp.ClassName != "Tentative" && signUp.ClassName != "Absence" && signUp.ClassName != "Bench" {
 				specParamsBuilder.WriteString(signUp.SpecID)
 				nameParamsBuilder.WriteString(signUp.Name + "!")
@@ -41,6 +46,8 @@ func main() {
 				}
 			}
 		}
+
+		event.SignUpsAmount = event.SignUpsAmount + lateAmount
 
 		specParamsBuilder.WriteString(strings.Repeat("00", 30-event.SignUpsAmount))
 		nameParamsBuilder.WriteString(strings.Repeat("!", 30-event.SignUpsAmount-1))

@@ -13,6 +13,10 @@
                 ],
                 "achievements": [
                     {
+                        "name": "Gloire à l'écumeur de raids (10)",
+                        "link": "https://www.wowhead.com/wotlk/fr/achievement=2957/gloire-%C3%A0-l%C3%A9cumeur-de-raids-10-joueurs"
+                    },
+                    {
                         "name": "Mande-étoile",
                         "link": "https://www.wowhead.com/fr/achievement=3036/on-nous-observe-10-joueurs"
                     }

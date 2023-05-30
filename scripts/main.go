@@ -87,7 +87,7 @@ func GetEvents() AllEvents {
 	apiKey := os.Getenv("RH_APIKEY")
 	method := "GET"
 
-	urlBuilder.WriteString("https://raid-helper.dev/api/v2/servers/")
+	urlBuilder.WriteString("https://raid-helper.xyz/api/v2/servers/")
 	urlBuilder.WriteString(serverId)
 	urlBuilder.WriteString("/events")
 

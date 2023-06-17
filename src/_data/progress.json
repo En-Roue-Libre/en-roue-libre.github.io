@@ -6,18 +6,26 @@
         "phases": [
             {
                 "name": "Phase 2",
-                "done": false,
+                "done": true,
                 "raids": [
-                    "🔄 Ulduar 10 (14/14 NM) (8/9 HM, Yogg+1), Yogg+0 en cours",
-                    "❌ Ulduar 25 (13/14 NM) (0/9 HM)"
+                    "Ulduar 10 (14/14 NM) (9/9 HM)",
+                    "<s>Ulduar 25 (13/14 NM) (0/9 HM)</s>"
                 ],
                 "achievements": [
+                    {
+                        "name": "Dans la nuit noire (Yogg+0, 10)",
+                        "link": "https://www.wowhead.com/wotlk/fr/achievement=3159/dans-la-nuit-noire-10-joueurs"
+                    },
+                    {
+                        "name": "Une longeur d'avance: Ulduar (10)",
+                        "link": "https://www.wowhead.com/wotlk/fr/achievement=17341/une-longueur-d-avance-ulduar"
+                    },
                     {
                         "name": "Gloire à l'écumeur de raids (10)",
                         "link": "https://www.wowhead.com/wotlk/fr/achievement=2957/gloire-%C3%A0-l%C3%A9cumeur-de-raids-10-joueurs"
                     },
                     {
-                        "name": "Mande-étoile",
+                        "name": "Mande-étoile (Algalon, 10)",
                         "link": "https://www.wowhead.com/fr/achievement=3036/on-nous-observe-10-joueurs"
                     }
                 ]

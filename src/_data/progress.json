@@ -5,6 +5,19 @@
         "done": false,
         "phases": [
             {
+                "name": "Phase 3",
+                "done": true,
+                "raids": [
+                    "EDC 10 (5/5 HM)"
+                ],
+                "achievements": [
+                    {
+                        "name": "L'appel de la grande Croisade (10)",
+                        "link": "https://www.wowhead.com/wotlk/fr/achievement=3918/lappel-de-la-grande-croisade-10-joueurs"
+                    }
+                ]
+            },
+            {
                 "name": "Phase 2",
                 "done": true,
                 "raids": [

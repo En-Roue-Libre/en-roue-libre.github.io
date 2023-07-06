@@ -12,6 +12,10 @@
                 ],
                 "achievements": [
                     {
+                        "name": "Une offrande à la démence (10)",
+                        "link": "https://www.wowhead.com/fr/achievement=3810/une-offrande-%C3%A0-la-d%C3%A9mence-10-joueurs"
+                    },
+                    {
                         "name": "L'appel de la grande Croisade (10)",
                         "link": "https://www.wowhead.com/wotlk/fr/achievement=3918/lappel-de-la-grande-croisade-10-joueurs"
                     }

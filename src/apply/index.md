@@ -21,10 +21,6 @@ eleventyNavigation:
       Mage
     </p>
     <p class="mt-4 font-light text-slate-200 text-lg">
-      <img class="h-8 w-8 float-left mr-4 border border-slate-600 rounded drop-shadow-lg lazyload" data-src="https://wow.zamimg.com/images/wow/icons/large/classicon_deathknight.jpg">
-      DK (impie/givre)
-    </p>
-    <p class="mt-4 font-light text-slate-200 text-lg">
       <img class="h-8 w-8 float-left mr-4 border border-slate-600 rounded drop-shadow-lg lazyload" data-src="https://wow.zamimg.com/images/wow/icons/large/classicon_warlock.jpg">
       Démoniste
     </p>

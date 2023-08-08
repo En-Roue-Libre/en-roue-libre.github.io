@@ -16,6 +16,9 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy({
         'src/_includes/assets/img': './img'
     });
+    eleventyConfig.addPassthroughCopy({
+        'src/_includes/assets/favicon': '/'
+    });
 
     // Filters
     eleventyConfig.addFilter("cssmin", function (code) {

@@ -1,8 +1,19 @@
 const navigation = require('@11ty/eleventy-navigation')
 const CleanCSS = require("clean-css");
 const htmlmin = require("html-minifier");
+const fg = require('fast-glob');
+const galleryImages = fg.globSync('**/img/gallery/*', { onlyFiles: true, cwd: 'dist' });
+const memeImages = fg.globSync('**/img/memes/*', { onlyFiles: true, cwd: 'dist' });
 
 module.exports = function (eleventyConfig) {
+    // Collections
+    eleventyConfig.addCollection('gallery', function (collection) {
+        return galleryImages;
+    });
+    eleventyConfig.addCollection('memes', function (collection) {
+        return memeImages;
+    });
+
     // Plugins
     eleventyConfig.addPlugin(navigation)
 

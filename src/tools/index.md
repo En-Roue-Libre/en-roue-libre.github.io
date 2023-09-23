@@ -3,7 +3,7 @@ layout: base
 title: ERL | Outils
 eleventyNavigation:
   key: Outils
-  order: 5
+  order: 6
 ---
 
 <div class="container flex flex-col gap-12 px-6 py-8 mx-auto font-serif font-light">

@@ -2,15 +2,15 @@ const navigation = require('@11ty/eleventy-navigation')
 const CleanCSS = require("clean-css");
 const htmlmin = require("html-minifier");
 const fg = require('fast-glob');
-const galleryImages = fg.globSync('**/img/gallery/*', { onlyFiles: true, cwd: 'dist' });
-const memeImages = fg.globSync('**/img/memes/*', { onlyFiles: true, cwd: 'dist' });
+const galleryImages = fg.globSync('**/img/gallery/*', { onlyFiles: true, cwd: 'src/_includes/assets' });
+const memeImages = fg.globSync('**/img/memes/*', { onlyFiles: true, cwd: 'src/_includes/assets' });
 
 module.exports = function (eleventyConfig) {
     // Collections
-    eleventyConfig.addCollection('gallery', function (collection) {
+    eleventyConfig.addCollection('gallery', function () {
         return galleryImages;
     });
-    eleventyConfig.addCollection('memes', function (collection) {
+    eleventyConfig.addCollection('memes', function () {
         return memeImages;
     });
 

@@ -921,10 +921,6 @@ video {
   padding-top: 0.625rem;
   padding-bottom: 0.625rem;
 }
-.px-2 {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-}
 .pr-4 {
   padding-right: 1rem;
 }
@@ -1185,11 +1181,6 @@ video {
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
 
-  .sm\:px-4 {
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-
   .sm\:text-center {
     text-align: center;
   }
@@ -1199,19 +1190,6 @@ video {
   .md\:sticky {
     position: -webkit-sticky;
     position: sticky;
-  }
-
-  .md\:order-2 {
-    order: 2;
-  }
-
-  .md\:order-1 {
-    order: 1;
-  }
-
-  .md\:mx-0 {
-    margin-left: 0px;
-    margin-right: 0px;
   }
 
   .md\:mx-auto {
@@ -1241,10 +1219,6 @@ video {
 
   .md\:contents {
     display: contents;
-  }
-
-  .md\:w-auto {
-    width: auto;
   }
 
   .md\:basis-1\/2 {

@@ -79,7 +79,7 @@ eleventyNavigation:
             <div class="lg:max-w-2xl animate__animated animate__fast animate__bounceInRight">
                 <h1 class="font-mono font-semibold text-2xl text-white uppercase">Fin</h1>
                 <p class="mt-2 font-light text-slate-200 text-lg">
-                  Malgré notre désir de continuer tous ensemble, les aléas de la vie ont beaucoup changer nos disponibilités.
+                  Malgré notre désir de continuer tous ensemble, les aléas de la vie ont beaucoup changé nos disponibilités.
                 </p>
                 <p class="mt-2 font-light text-slate-200 text-lg">
                   En Septembre 2023, <span class="font-medium">la guilde arrête donc d'organiser des raids de progression</span>.

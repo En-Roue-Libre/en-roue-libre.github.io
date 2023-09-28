@@ -1,7 +1,5 @@
-<div class="grid lg:grid-cols-2 sm:grid-cols-1 gap-6">
+<div class="gap-6 columns-1 px-6 xl:columns-2 xl:px-0">
     {%- for image in collections.memes -%}
-        <div class="md:px-6">
-            <img class="w-full rounded-xl shadow-xl lazyload" data-src="/{{image}}" alt="">
-        </div>
+        <img class="w-full my-6 rounded-xl shadow-xl" src="/{{image}}" alt="">
     {%- endfor -%}
 </div>
